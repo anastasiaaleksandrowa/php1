@@ -1,6 +1,12 @@
 <?php
-$a = 5;
-$b = '05';
+$a = 1;
+$b = 2;
+
+$a = $a + $b; 
+$b = $a - $b; 
+$a = $a - $b; 
+
+echo "a=$a, b=$b"; 
 
 var_dump($a == $b);
 var_dump((int)'012345');
